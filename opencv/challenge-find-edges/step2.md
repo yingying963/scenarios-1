@@ -25,7 +25,7 @@ The image processing results are as follows:
 
 ![example_image2](assets/canny_edges_image.jpg)
 
-n Laplacian of Gaussian (LoG) edge detection, the image is first Laplacian filtered with the parameter ddepth as `cv2.CV_64F`. 
+n Laplacian of Gaussian (LoG) edge detection, the image is first Laplacian filtered with the parameter ddepth as `cv2.CV_64F`.
 The image is then binarized based on the results of Laplace filtering. The binarization threshold range set here is 3 and 250, and binary thresholding is used. The obtained image is displayed as follows:
 
 ![example_image](assets/log_edges_image.jpg)
