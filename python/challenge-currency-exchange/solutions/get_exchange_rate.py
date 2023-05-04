@@ -22,6 +22,6 @@ def get_exchange_rate(original_currency, target_currency):
         target_rate = exchange_rates[target_currency]["rate"]
     except:
         raise ValueError("Target currency code not supported")
-    
+
     exchange_rate = target_rate / original_rate
     return exchange_rate

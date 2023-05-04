@@ -18,8 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": 
-        [
+        "skills": [
           "python/json",
           "python/try_except",
           "python/open",
@@ -41,11 +40,7 @@
             "showstderr": true
           }
         ],
-        "skills": 
-        [
-          "python/math_operator",
-          "python/function_basic"
-        ],
+        "skills": ["python/math_operator", "python/function_basic"],
         "solutions": ["currency_conversion.py"]
       }
     ],

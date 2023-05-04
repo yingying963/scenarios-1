@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Your task is to create a function in `currency_conversion.py` that converts an amount of money from one currency to another. The function should take three arguments: the original currency code, the target currency code, and the amount of money to be converted. 
+Your task is to create a function in `currency_conversion.py` that converts an amount of money from one currency to another. The function should take three arguments: the original currency code, the target currency code, and the amount of money to be converted.
 
 ## Requirements
 
