@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 def detect_lines(image: np.ndarray) -> np.ndarray:
     """
     Detect lines in an image using the HoughLinesP function.
@@ -19,5 +20,12 @@ def detect_lines(image: np.ndarray) -> np.ndarray:
     binary = cv2.Canny(image, 20, 40)
 
     # Apply the HoughLinesP function to the preprocessed image
-    lines = cv2.HoughLinesP(binary, rho, theta, threshold, minLineLength=min_line_length, maxLineGap=max_line_gap)
+    lines = cv2.HoughLinesP(
+        binary,
+        rho,
+        theta,
+        threshold,
+        minLineLength=min_line_length,
+        maxLineGap=max_line_gap,
+    )
     return lines

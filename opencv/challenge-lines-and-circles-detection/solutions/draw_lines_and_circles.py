@@ -1,7 +1,10 @@
 import cv2
 import numpy as np
 
-def draw_lines_and_circles(image: np.ndarray, lines: np.ndarray, circles: np.ndarray) -> np.ndarray:
+
+def draw_lines_and_circles(
+    image: np.ndarray, lines: np.ndarray, circles: np.ndarray
+) -> np.ndarray:
     """
     Draw detected lines and circles on the original image.
 

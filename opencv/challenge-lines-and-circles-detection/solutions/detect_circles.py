@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 def detect_circles(image: np.ndarray) -> np.ndarray:
     """
     Detect circles in an image using the HoughCircles function.
@@ -17,5 +18,14 @@ def detect_circles(image: np.ndarray) -> np.ndarray:
     max_radius = 100
 
     # Apply the HoughCircles function to the preprocessed image
-    circles = cv2.HoughCircles(image, cv2.HOUGH_GRADIENT, dp, min_dist, param1=param1, param2=param2, minRadius=min_radius, maxRadius=max_radius)
+    circles = cv2.HoughCircles(
+        image,
+        cv2.HOUGH_GRADIENT,
+        dp,
+        min_dist,
+        param1=param1,
+        param2=param2,
+        minRadius=min_radius,
+        maxRadius=max_radius,
+    )
     return circles
