@@ -19,9 +19,9 @@
           }
         ],
         "skills": [
-          "python/packages", 
-          "opencv/video_capture", 
-          "opencv/imread", 
+          "python/packages",
+          "opencv/video_capture",
+          "opencv/imread",
           "opencv/imwrite",
           "python/os",
           "python/f_string"
@@ -40,9 +40,9 @@
           }
         ],
         "skills": [
-          "python/packages", 
-          "opencv/video_capture", 
-          "opencv/fourcc", 
+          "python/packages",
+          "opencv/video_capture",
+          "opencv/fourcc",
           "opencv/video_writer",
           "python/int"
         ]
