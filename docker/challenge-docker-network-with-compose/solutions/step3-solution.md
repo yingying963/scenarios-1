@@ -5,7 +5,7 @@
 1. Create a Compose file that includes a network configuration. For this example, we'll create a file named `docker-compose.yml`. Replace `nginx` with an image name you have access to:
 
    ```yml
-   version: '3'
+   version: "3"
    services:
      nginx:
        image: nginx
@@ -31,6 +31,7 @@ docker-compose version
 ```
 
 3. Run the containers using `docker-compose up`:
+
    ```bash
    docker-compose up
    ```
