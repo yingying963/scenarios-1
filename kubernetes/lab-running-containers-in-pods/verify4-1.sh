@@ -1,2 +1,2 @@
 #!/bin/zsh
-minikube kubectl -- get cm |grep my-config
+minikube kubectl -- get cm | grep my-config

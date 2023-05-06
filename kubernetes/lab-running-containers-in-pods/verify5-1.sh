@@ -1,2 +1,2 @@
 #!/bin/zsh
-minikube kubectl -- get pv |grep my-pv
+minikube kubectl -- get pv | grep my-pv
