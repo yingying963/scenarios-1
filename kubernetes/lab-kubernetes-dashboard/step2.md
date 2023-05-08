@@ -20,9 +20,9 @@ In this step, we will create a service account and cluster role binding to allow
      kind: ClusterRole
      name: cluster-admin
    subjects:
-   - kind: ServiceAccount
-     name: admin-user
-     namespace: kubernetes-dashboard
+     - kind: ServiceAccount
+       name: admin-user
+       namespace: kubernetes-dashboard
    ```
 
    This file creates a service account named `admin-user` and a cluster role binding that grants it cluster-admin privileges.

@@ -11,7 +11,7 @@ In this step, we will access the Kubernetes Dashboard using a web browser.
    This will output a token that you can use to log in to the Kubernetes Dashboard.
 
 2. Use the following command to change the service type of the kubernetes dashboard to `NodePort` in line 33.
-	
+
    ```bash
    kubectl edit service -n kubernetes-dashboard kubernetes-dashboard
    ```
@@ -27,7 +27,7 @@ In this step, we will access the Kubernetes Dashboard using a web browser.
    ```bash
    kubectl get node -o wide
    ```
-   
+
    The data labeled as `INTERNAL-IP` is the IP address of the node.
 
 4. Open a web browser and navigate to `https://<node-ip>:<node-port>`.
