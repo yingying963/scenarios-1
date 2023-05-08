@@ -4,6 +4,7 @@ from typing import Dict, List
 
 from data_generator import generate_stock_data
 
+
 def process_stock_data(input_queue: Queue, stop_event: Event) -> None:
     """
     Processes the stock price updates from the input_queue and calculates the average price and trends.
@@ -26,4 +27,3 @@ def process_stock_data(input_queue: Queue, stop_event: Event) -> None:
             print(f"Average price of {symbol}: {avg_price:.2f}")
 
         time.sleep(1)
-

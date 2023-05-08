@@ -13,7 +13,7 @@ In this sub-challenge, you will create the main function that starts the data ge
 
 After you finish the `main` function, you can run the `main_function.py` file and its output should be in the following format:
 
-``` zsh
+```zsh
 $ python3 main_function.py
 # Output
 Average price of MSFT: 177.74

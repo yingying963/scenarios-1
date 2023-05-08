@@ -4,7 +4,10 @@ import threading
 from multiprocessing import Queue
 from typing import List
 
-def generate_stock_data(stock_symbols: List[str], interval: float, max_updates: int, output_queue: Queue) -> None:
+
+def generate_stock_data(
+    stock_symbols: List[str], interval: float, max_updates: int, output_queue: Queue
+) -> None:
     """
     Generates random stock price updates for the given stock symbols at the specified interval.
 
@@ -20,4 +23,3 @@ def generate_stock_data(stock_symbols: List[str], interval: float, max_updates: 
         output_queue.put((symbol, price))
         count += 1
         time.sleep(interval)
-

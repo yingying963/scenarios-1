@@ -15,7 +15,7 @@ The purpose of this sub-challenge is to create a data processor that analyzes th
 
 When you are done with the `process_stock_data` function, you can test it using the `data_processor_test.py` file we have prepared for you, which has the following format for its output:
 
-``` zsh
+```zsh
 $ python3 data_processor_test.py
 # Output:
 Average price of TSLA: 100.00

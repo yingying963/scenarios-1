@@ -14,7 +14,7 @@ The purpose of this sub-challenge is to create a stock market data generator tha
 
 When you are done with the `generate_stock_data` function, you can test it using the `data_generator_test.py` file we have prepared for you, which has the following format for its output:
 
-``` zsh
+```zsh
 $ python3 data_generator_test.py
 # Output:
 ('TSLA', 88.32)

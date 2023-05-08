@@ -2,6 +2,7 @@ import time
 from multiprocessing import Queue, Event
 from typing import Dict, List
 
+
 def process_stock_data(input_queue: Queue, stop_event: Event) -> None:
     """
     Processes the stock price updates from the input_queue and calculates the average price and trends.
@@ -13,9 +14,8 @@ def process_stock_data(input_queue: Queue, stop_event: Event) -> None:
 
     while not stop_event.is_set():
         while not input_queue.empty():
-            
             # TODO
-            
+
             print(f"Average price of {symbol}: {avg_price:.2f}")
 
         time.sleep(1)

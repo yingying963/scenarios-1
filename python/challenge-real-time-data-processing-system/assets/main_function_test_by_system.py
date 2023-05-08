@@ -7,8 +7,8 @@ from unittest.mock import patch
 
 from main_function import main
 
-class TestMainFunctionAndStoppingMechanism(unittest.TestCase):
 
+class TestMainFunctionAndStoppingMechanism(unittest.TestCase):
     def test_main_graceful_stop(self):
         # Set a short duration for the test
         duration = 1
@@ -27,6 +27,7 @@ class TestMainFunctionAndStoppingMechanism(unittest.TestCase):
 
             # Check if the test duration is within an acceptable range
             self.assertTrue(duration - 1 <= elapsed_time <= duration + 1)
+
 
 if __name__ == "__main__":
     unittest.main()
