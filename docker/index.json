@@ -1,0 +1,89 @@
+{
+  "type": "challenge",
+  "title": "Build Container Image",
+  "description": "In this challenge, you will learn how to use the docker build command to build Docker images step-by-step.",
+  "difficulty": "Beginner",
+  "time": 20,
+  "details": {
+    "steps": [
+      {
+        "title": "Basic Docker Build",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "The target of this step is to build a Docker image that contains a simple 'Hello, World!' application.",
+            "file": "verify1.sh",
+            "hint": "Please build the Docker image called hello-world using the docker build command.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["docker/images", "docker/build"],
+        "solutions": ["step1-solution.md"]
+      },
+      {
+        "title": "Building a Docker Image with Dependencies",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "The target of this step is to build a Docker image that contains a Python application that requires the Flask library.",
+            "file": "verify2.sh",
+            "hint": "Please build the Docker image called flask-app using the docker build command.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["docker/build"],
+        "solutions": ["step2-solution.md"]
+      },
+      {
+        "title": "Building a Docker Image with Environment Variables",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "The target of this step is to build a Docker image that contains a Python application that uses an environment variable to set the port number.",
+            "file": "verify3.sh",
+            "hint": "Please build the Docker image called flask-app-env using the docker build command.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["docker/build"],
+        "solutions": ["step3-solution.md"]
+      },
+      {
+        "title": "Building a Docker Image with Multiple Stages",
+        "text": "step4.md",
+        "verify": [
+          {
+            "name": "The target of this step is to build a Docker image that contains a Go application that is compiled in a separate stage.",
+            "file": "verify4.sh",
+            "hint": "Please build the Docker image called go-app using the docker build command.",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["docker/build"],
+        "solutions": ["step4-solution.md"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "",
+          "target": "/tmp"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "webide-instance-ubuntu:2204"
+  }
+}
