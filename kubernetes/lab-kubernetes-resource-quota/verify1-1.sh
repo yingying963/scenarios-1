@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-minikube kubectl -- get resourcequotas | grep example-resourcequota 
+minikube kubectl -- get resourcequotas | grep example-resourcequota
