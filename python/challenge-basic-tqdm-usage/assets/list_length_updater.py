@@ -17,9 +17,7 @@ def list_length_updater(lst: List[List[Any]], total_num: int) -> None:
     for sub_lst in lst:
         pass
 
-lst = [
-    [1, 2, 3],
-    [4, 5]
-]
+
+lst = [[1, 2, 3], [4, 5]]
 
 list_length_updater(lst, 5)

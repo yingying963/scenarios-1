@@ -12,4 +12,5 @@ def range_progress(total_num: int) -> None:
     for _ in range(total_num):
         pass
 
+
 range_progress(5)

@@ -17,11 +17,11 @@ class TestProgressBarSolutions(unittest.TestCase):
         def func2():
             time.sleep(0.8)
 
-        with patch('sys.stderr', new=StringIO()) as captured_output:
+        with patch("sys.stderr", new=StringIO()) as captured_output:
             function_runner([func1, func2])
             output = captured_output.getvalue()
         self.assertIn("100%", output)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
