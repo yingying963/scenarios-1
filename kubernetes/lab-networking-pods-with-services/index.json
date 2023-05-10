@@ -18,9 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Create a Service",
@@ -34,9 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Test the Service",
@@ -57,10 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/exec"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/exec"]
       },
       {
         "title": "Update the Service",
@@ -74,9 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Test the Updated Service",
@@ -97,11 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/delete",
-          "kubernetes/run",
-          "kubernetes/label"
-        ]
+        "skills": ["kubernetes/delete", "kubernetes/run", "kubernetes/label"]
       }
     ],
     "intro": {

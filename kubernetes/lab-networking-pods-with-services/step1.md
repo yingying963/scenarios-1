@@ -8,7 +8,7 @@ kind: Pod
 metadata:
   name: my-pod-1
   labels:
-      app: nginx
+    app: nginx
 spec:
   containers:
     - name: my-container
