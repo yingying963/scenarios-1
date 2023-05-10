@@ -46,13 +46,15 @@
             "hint": "The port mapping of my-nginx2 container is not set.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Check if port 80 is mapped in my-nginx container.",
             "file": "verify3-2.sh",
             "hint": "Port 80 is not mapped in my-nginx2 container.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Check if port 8080 is mapped in the host.",
             "file": "verify3-3.sh",
             "hint": "Port 8080 is not mapped in the host.",

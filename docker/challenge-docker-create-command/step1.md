@@ -14,13 +14,14 @@ Here is an example of what you should be able to accomplish at the end of this s
 
 1. Open a terminal or command prompt.
 2. Create a new container from the `httpd` image.
-  - If this is the first time you enter this command
 
-  ![create-a-new-container](assets/challenge-docker-create-command-1-1.png)
-  
-  - If this is not the first time you enter this command
-  
-  ![create-a-new-container](assets/challenge-docker-create-command-1-2.png)
+- If this is the first time you enter this command
+
+![create-a-new-container](assets/challenge-docker-create-command-1-1.png)
+
+- If this is not the first time you enter this command
+
+![create-a-new-container](assets/challenge-docker-create-command-1-2.png)
 
 3. Check if the container has been created.
 
